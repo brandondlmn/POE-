@@ -15,13 +15,13 @@ namespace GUI
         private readonly MLContext mlContext;
         private readonly PredictionEngine<SentimentData, SentimentPrediction> sentimentPredEngine;
 
-        public class SentimentData // Changed from private to public
+        public class SentimentData 
         {
             public string Text { get; set; }
             public bool Label { get; set; }
         }
 
-        public class SentimentPrediction // Changed from private to public
+        public class SentimentPrediction 
         {
             [ColumnName("PredictedLabel")]
             public bool Prediction { get; set; }
