@@ -37,8 +37,8 @@ Files: chat.jpeg (logo) and greeting.wav (audio) in the program’s output direc
 Setup
 bash
 
-git clone https://github.com/your-repo/cybersecurity-chatbot.git
-cd cybersecurity-chatbot
+git clone [https://github.com/your-repo/cybersecurity-chatbot.git
+cd cybersecurity-chatbot](https://github.com/brandondlmn/POE-)
 
 Open the solution (.sln) in Visual Studio.
 
